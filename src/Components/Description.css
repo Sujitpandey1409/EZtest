@@ -1,0 +1,71 @@
+/* Layout Properties */
+.DescriptionContainer {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: flex-start;
+}
+
+.LogoContainer {
+    width: 517px;
+    height: 145px;
+    /* UI Properties */
+    background: transparent url('../Assets/EZ\ Works\ Blue.png') 0 0 no-repeat padding-box;
+    opacity: 1;
+}
+
+.titleContainer {
+    text-align: left;
+    font: normal normal normal 48px/58px Exo 2.0;
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #112949;
+    opacity: 1;
+}
+
+.details {
+    margin-top: 20px;
+    text-align: left;
+    font: normal normal normal 32px/38px Exo 2.0;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #112949;
+    opacity: 1;
+}
+.formContainer{
+    display: flex;
+    gap: 20px;
+}
+.inputStyle {
+    width: 514px;
+    /* height: 78px; */
+    min-height: max-content;
+    padding: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ABABAB;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 32px/38px Exo 2.0;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    opacity:1;
+}
+
+.btnStyle {
+    width: 213px;
+    /* height: 78px; */
+    height: 60px;
+    /* UI Properties */
+    background: #EA7B2C 0% 0% no-repeat padding-box;
+    border: 1px solid #EA7B2C;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 32px/38px Exo 2.0;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
