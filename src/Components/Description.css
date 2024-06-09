@@ -35,11 +35,13 @@
     color: #112949;
     opacity: 1;
 }
-.formContainer{
+
+.formContainer {
     display: flex;
     /* flex-wrap: wrap; */
     gap: 20px;
 }
+
 .inputStyle {
     width: 514px;
     /* height: 78px; */
@@ -53,7 +55,7 @@
     font: normal normal normal 32px/38px Exo 2.0;
     letter-spacing: 0px;
     color: #ABABAB;
-    opacity:1;
+    opacity: 1;
 }
 
 .btnStyle {
@@ -69,4 +71,61 @@
     font: normal normal normal 32px/38px Exo 2.0;
     letter-spacing: 0px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 688px) and (min-width: 480px) {
+    .LogoContainer {
+        background: transparent url('../Assets/EZ\ Works\ Blue-small.png') 0 0 no-repeat padding-box;
+        height: 62px;
+    }
+    .formContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        top: 100vh;
+    }
+}
+
+@media screen and (max-width: 649px) and (min-width: 617px) {
+    .formContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        top: 130vh;
+    }
+}
+@media screen and (max-width: 616px) and (min-width: 440px) {
+    .formContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        top: 137vh;
+    }
+}
+@media screen and (max-width: 439px)  {
+    .formContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        top: 227vh;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .LogoContainer {
+        background: transparent url('../Assets/EZ\ Works\ Blue-small.png') 0 0 no-repeat padding-box;
+        height: 62px;
+    }
+    .DescriptionContainer {
+        width: 100vw;
+    }
+}
+@media screen and (max-width: 519px) {
+    .DescriptionContainer {
+        width: 400px;
+    }
+    .formContainer{
+        width: 400px;
+    }
 }
