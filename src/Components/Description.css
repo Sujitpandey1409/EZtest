@@ -78,6 +78,7 @@
         background: transparent url('../Assets/EZ\ Works\ Blue-small.png') 0 0 no-repeat padding-box;
         height: 62px;
     }
+
     .formContainer {
         flex-wrap: wrap;
         justify-content: center;
@@ -91,9 +92,10 @@
         flex-wrap: wrap;
         justify-content: center;
         position: absolute;
-        top: 880px;
+        top: 951px;
     }
 }
+
 @media screen and (max-width: 616px) and (min-width: 440px) {
     .formContainer {
         flex-wrap: wrap;
@@ -102,7 +104,8 @@
         top: 950px;
     }
 }
-@media screen and (max-width: 439px)  {
+
+@media screen and (max-width: 439px) {
     .formContainer {
         flex-wrap: wrap;
         justify-content: center;
@@ -112,7 +115,7 @@
 }
 
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .LogoContainer {
         background: transparent url('../Assets/EZ\ Works\ Blue-small.png') 0 0 no-repeat padding-box;
         height: 62px;
@@ -120,12 +123,50 @@
     .DescriptionContainer {
         width: 100vw;
     }
-}
+} */
 @media screen and (max-width: 519px) {
     .DescriptionContainer {
         width: 400px;
     }
-    .formContainer{
+
+    .formContainer {
         width: 400px;
     }
+}
+
+@media screen and (max-width: 649px) {
+    .DescriptionContainer {
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+
+    .LogoContainer {
+        width: 200px;
+        height: 62px;
+        background: transparent url('../Assets/EZ\ Works\ Blue-small.png') 0 0 no-repeat padding-box;
+    }
+
+    .formContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 422px) {
+    .DescriptionContainer {
+        width: 250px;
+    }
+
+    .LogoContainer {
+        width: 250px;
+    }
+
+    .formContainer {
+        width: 250px;
+        top: 1700px;
+    }
+
 }
