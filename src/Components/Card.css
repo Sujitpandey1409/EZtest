@@ -21,8 +21,26 @@
     width: 58px;
     height: 58px;
     /* UI Properties */
-    background: transparent url('../Assets/Research@4x.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+
+.logo1 {
+    background: transparent url('../Assets/Research@4x.png') 0% 0% no-repeat padding-box;
+}
+.logo2 {
+    background: transparent url('../Assets/Research@4x\(2\).png') 0% 0% no-repeat padding-box;
+}
+.logo3 {
+    background: transparent url('../Assets/Research@4x\(3\).png') 0% 0% no-repeat padding-box;
+}
+.logo4 {
+    background: transparent url('../Assets/Research@4x\(4\).png') 0% 0% no-repeat padding-box;
+}
+.logo5 {
+    background: transparent url('../Assets/Research@4x\(5\).png') 0% 0% no-repeat padding-box;
+}
+.logo6 {
+    background: transparent url('../Assets/Research@4x\(6\).png') 0% 0% no-repeat padding-box;
 }
 
 .title {
